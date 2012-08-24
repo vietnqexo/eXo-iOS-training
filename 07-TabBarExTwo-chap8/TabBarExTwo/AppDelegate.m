@@ -1,29 +1,24 @@
 //
 //  AppDelegate.m
-//  TabBarExOne
+//  TabBarExTwo
 //
 //  Created by exoplatform on 8/24/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
 #import "FirstViewController.h"
-
 #import "SecondViewController.h"
 
-#import "ThirdViewController.h"
-
-#import "FourthViewController.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize tabBarController = _tabBarController;
+@synthesize tabBarController;
 
 - (void)dealloc
 {
     [_window release];
-    [_tabBarController release];
+    [tabBarController release];
     [super dealloc];
 }
 
@@ -31,17 +26,16 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil] autorelease];
-    UIViewController *viewController2 = [[[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil] autorelease];
-    UIViewController *viewController3 = [[[ThirdViewController alloc] initWithNibName:@"ThirdViewController" bundle:nil] autorelease];
-    UIViewController *viewController4 = [[[FourthViewController alloc] initWithNibName:@"FourthViewController" bundle:nil] autorelease];
-    UIViewController *viewController5 = [[[FourthViewController alloc] initWithNibName:@"FourthViewController" bundle:nil] autorelease];
-    UIViewController *viewController6 = [[[FourthViewController alloc] initWithNibName:@"FourthViewController" bundle:nil] autorelease];
+    self.window.backgroundColor = [UIColor whiteColor];
+   
     
-    self.tabBarController = [[[UITabBarController alloc] init] autorelease];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, viewController3, viewController4, viewController5, viewController6, nil];
-    self.tabBarController.customizableViewControllers = nil;
+    FirstViewController *viewController1 = [[[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil] autorelease];
+    SecondViewController *viewController2 = [[[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil] autorelease];
+    
+    self.tabBarController = [[[UITabBarController alloc] init ]autorelease];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
     self.window.rootViewController = self.tabBarController;
+
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -84,19 +78,5 @@
      See also applicationDidEnterBackground:.
      */
 }
-
-/*
-// Optional UITabBarControllerDelegate method.
-- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
-{
-}
-*/
-
-/*
-// Optional UITabBarControllerDelegate method.
-- (void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed
-{
-}
-*/
 
 @end

@@ -24,6 +24,8 @@
 		7DCD40E815E71DA200045C67 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCD40E615E71DA200045C67 /* ThirdViewController.m */; };
 		7DCD40E915E71DA200045C67 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DCD40E715E71DA200045C67 /* ThirdViewController.xib */; };
 		7DCD40ED15E7262600045C67 /* guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCD40EC15E7262600045C67 /* guitar.png */; };
+		7DCD412D15E775AA00045C67 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCD412B15E775AA00045C67 /* FourthViewController.m */; };
+		7DCD412E15E775AA00045C67 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DCD412C15E775AA00045C67 /* FourthViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,9 @@
 		7DCD40E615E71DA200045C67 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		7DCD40E715E71DA200045C67 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 		7DCD40EC15E7262600045C67 /* guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guitar.png; sourceTree = "<group>"; };
+		7DCD412A15E775AA00045C67 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		7DCD412B15E775AA00045C67 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		7DCD412C15E775AA00045C67 /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +118,9 @@
 				7DCD40E515E71DA200045C67 /* ThirdViewController.h */,
 				7DCD40E615E71DA200045C67 /* ThirdViewController.m */,
 				7DCD40E715E71DA200045C67 /* ThirdViewController.xib */,
+				7DCD412A15E775AA00045C67 /* FourthViewController.h */,
+				7DCD412B15E775AA00045C67 /* FourthViewController.m */,
+				7DCD412C15E775AA00045C67 /* FourthViewController.xib */,
 			);
 			path = TabBarExOne;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 				7DCD40DF15E7170F00045C67 /* SecondViewController.xib in Resources */,
 				7DCD40E915E71DA200045C67 /* ThirdViewController.xib in Resources */,
 				7DCD40ED15E7262600045C67 /* guitar.png in Resources */,
+				7DCD412E15E775AA00045C67 /* FourthViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +212,7 @@
 				7DCD40CE15E7170E00045C67 /* FirstViewController.m in Sources */,
 				7DCD40D515E7170E00045C67 /* SecondViewController.m in Sources */,
 				7DCD40E815E71DA200045C67 /* ThirdViewController.m in Sources */,
+				7DCD412D15E775AA00045C67 /* FourthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +330,7 @@
 				7DCD40E415E7170F00045C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
