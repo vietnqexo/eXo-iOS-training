@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DEB114B15EF175600506F6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEB114A15EF175600506F6A /* UIKit.framework */; };
+		7DEB114D15EF175600506F6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEB114C15EF175600506F6A /* Foundation.framework */; };
+		7DEB114F15EF175600506F6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEB114E15EF175600506F6A /* CoreGraphics.framework */; };
+		7DEB115515EF175600506F6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DEB115315EF175600506F6A /* InfoPlist.strings */; };
+		7DEB115715EF175600506F6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB115615EF175600506F6A /* main.m */; };
+		7DEB115B15EF175600506F6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB115A15EF175600506F6A /* AppDelegate.m */; };
+		7DEB116515EF17CE00506F6A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB116315EF17CE00506F6A /* FirstViewController.m */; };
+		7DEB116615EF17CE00506F6A /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEB116415EF17CE00506F6A /* FirstViewController.xib */; };
+		7DEB116A15EF17DB00506F6A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB116815EF17DB00506F6A /* SecondViewController.m */; };
+		7DEB116B15EF17DB00506F6A /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEB116915EF17DB00506F6A /* SecondViewController.xib */; };
+		7DEB116F15EF17EA00506F6A /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB116D15EF17EA00506F6A /* ThirdViewController.m */; };
+		7DEB117015EF17EA00506F6A /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEB116E15EF17EA00506F6A /* ThirdViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DEB114615EF175600506F6A /* ThreeViewNavCont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeViewNavCont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEB114A15EF175600506F6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DEB114C15EF175600506F6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DEB114E15EF175600506F6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DEB115215EF175600506F6A /* ThreeViewNavCont-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeViewNavCont-Info.plist"; sourceTree = "<group>"; };
+		7DEB115415EF175600506F6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DEB115615EF175600506F6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DEB115815EF175600506F6A /* ThreeViewNavCont-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreeViewNavCont-Prefix.pch"; sourceTree = "<group>"; };
+		7DEB115915EF175600506F6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DEB115A15EF175600506F6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DEB116215EF17CE00506F6A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7DEB116315EF17CE00506F6A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7DEB116415EF17CE00506F6A /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		7DEB116715EF17DB00506F6A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7DEB116815EF17DB00506F6A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7DEB116915EF17DB00506F6A /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		7DEB116C15EF17EA00506F6A /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7DEB116D15EF17EA00506F6A /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		7DEB116E15EF17EA00506F6A /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DEB114315EF175600506F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEB114B15EF175600506F6A /* UIKit.framework in Frameworks */,
+				7DEB114D15EF175600506F6A /* Foundation.framework in Frameworks */,
+				7DEB114F15EF175600506F6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DEB113B15EF175600506F6A = {
+			isa = PBXGroup;
+			children = (
+				7DEB115015EF175600506F6A /* ThreeViewNavCont */,
+				7DEB114915EF175600506F6A /* Frameworks */,
+				7DEB114715EF175600506F6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DEB114715EF175600506F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DEB114615EF175600506F6A /* ThreeViewNavCont.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DEB114915EF175600506F6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DEB114A15EF175600506F6A /* UIKit.framework */,
+				7DEB114C15EF175600506F6A /* Foundation.framework */,
+				7DEB114E15EF175600506F6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DEB115015EF175600506F6A /* ThreeViewNavCont */ = {
+			isa = PBXGroup;
+			children = (
+				7DEB116115EF17A800506F6A /* ViewControllers */,
+				7DEB115915EF175600506F6A /* AppDelegate.h */,
+				7DEB115A15EF175600506F6A /* AppDelegate.m */,
+				7DEB115115EF175600506F6A /* Supporting Files */,
+			);
+			path = ThreeViewNavCont;
+			sourceTree = "<group>";
+		};
+		7DEB115115EF175600506F6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DEB115215EF175600506F6A /* ThreeViewNavCont-Info.plist */,
+				7DEB115315EF175600506F6A /* InfoPlist.strings */,
+				7DEB115615EF175600506F6A /* main.m */,
+				7DEB115815EF175600506F6A /* ThreeViewNavCont-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DEB116115EF17A800506F6A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DEB116215EF17CE00506F6A /* FirstViewController.h */,
+				7DEB116315EF17CE00506F6A /* FirstViewController.m */,
+				7DEB116415EF17CE00506F6A /* FirstViewController.xib */,
+				7DEB116715EF17DB00506F6A /* SecondViewController.h */,
+				7DEB116815EF17DB00506F6A /* SecondViewController.m */,
+				7DEB116915EF17DB00506F6A /* SecondViewController.xib */,
+				7DEB116C15EF17EA00506F6A /* ThirdViewController.h */,
+				7DEB116D15EF17EA00506F6A /* ThirdViewController.m */,
+				7DEB116E15EF17EA00506F6A /* ThirdViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DEB114515EF175600506F6A /* ThreeViewNavCont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DEB115E15EF175600506F6A /* Build configuration list for PBXNativeTarget "ThreeViewNavCont" */;
+			buildPhases = (
+				7DEB114215EF175600506F6A /* Sources */,
+				7DEB114315EF175600506F6A /* Frameworks */,
+				7DEB114415EF175600506F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeViewNavCont;
+			productName = ThreeViewNavCont;
+			productReference = 7DEB114615EF175600506F6A /* ThreeViewNavCont.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DEB113D15EF175600506F6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7DEB114015EF175600506F6A /* Build configuration list for PBXProject "ThreeViewNavCont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DEB113B15EF175600506F6A;
+			productRefGroup = 7DEB114715EF175600506F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DEB114515EF175600506F6A /* ThreeViewNavCont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DEB114415EF175600506F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEB115515EF175600506F6A /* InfoPlist.strings in Resources */,
+				7DEB116615EF17CE00506F6A /* FirstViewController.xib in Resources */,
+				7DEB116B15EF17DB00506F6A /* SecondViewController.xib in Resources */,
+				7DEB117015EF17EA00506F6A /* ThirdViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DEB114215EF175600506F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEB115715EF175600506F6A /* main.m in Sources */,
+				7DEB115B15EF175600506F6A /* AppDelegate.m in Sources */,
+				7DEB116515EF17CE00506F6A /* FirstViewController.m in Sources */,
+				7DEB116A15EF17DB00506F6A /* SecondViewController.m in Sources */,
+				7DEB116F15EF17EA00506F6A /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DEB115315EF175600506F6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DEB115415EF175600506F6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DEB115C15EF175600506F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DEB115D15EF175600506F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DEB115F15EF175600506F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeViewNavCont/ThreeViewNavCont-Prefix.pch";
+				INFOPLIST_FILE = "ThreeViewNavCont/ThreeViewNavCont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DEB116015EF175600506F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeViewNavCont/ThreeViewNavCont-Prefix.pch";
+				INFOPLIST_FILE = "ThreeViewNavCont/ThreeViewNavCont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DEB114015EF175600506F6A /* Build configuration list for PBXProject "ThreeViewNavCont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEB115C15EF175600506F6A /* Debug */,
+				7DEB115D15EF175600506F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DEB115E15EF175600506F6A /* Build configuration list for PBXNativeTarget "ThreeViewNavCont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEB115F15EF175600506F6A /* Debug */,
+				7DEB116015EF175600506F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DEB113D15EF175600506F6A /* Project object */;
+}
