@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ModalViewExController.h"
 
 @interface MyViewController : UIViewController {
     UIButton *dismissButton;
+    id<ModalViewDelegate> delegate;
 }
 @property (nonatomic, retain) IBOutlet UIButton *dismissButton;
+@property (nonatomic, retain) IBOutlet id<ModalViewDelegate> delegate;
 - (IBAction) dismissView:(id)sender;
 @end

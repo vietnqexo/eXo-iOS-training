@@ -11,8 +11,10 @@
 @implementation MyViewController
 
 @synthesize dismissButton;
+@synthesize delegate;
 
 - (IBAction) dismissView:(id)sender {
+    [delegate didReceivedMessage:@"Hello world"];
     [self dismissModalViewControllerAnimated:YES];
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

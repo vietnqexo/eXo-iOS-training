@@ -12,6 +12,8 @@
 @implementation ModalViewExController
 
 @synthesize showCurlButton, showDissolveButton, showDefaultButton, showFlipButton;
+@synthesize label;
+@synthesize showDelegateButton;
 
 - (IBAction) showCurl:(id)sender {
     MyViewController *myView = [[[MyViewController alloc] init] autorelease];
@@ -36,6 +38,17 @@
     [self presentModalViewController:myView animated:YES];
 }
 
+- (IBAction) showDelegate:(id)sender {
+    MyViewController *myView = [[[MyViewController alloc] init] autorelease];
+    myView.delegate = self;
+    [self presentModalViewController:myView animated:YES];
+
+}
+
+- (void) didReceivedMessage: (NSString *)message {
+    [label setText:message];
+
+}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -79,6 +92,8 @@
     [showFlipButton release];
     [showDissolveButton release];
     [showCurlButton release];
+    [showDelegateButton release];
+    [label release];
     [super dealloc];
 }
 @end
