@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DEBB17B15F0AF2C0082509D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEBB17A15F0AF2C0082509D /* UIKit.framework */; };
+		7DEBB17D15F0AF2C0082509D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEBB17C15F0AF2C0082509D /* Foundation.framework */; };
+		7DEBB17F15F0AF2C0082509D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEBB17E15F0AF2C0082509D /* CoreGraphics.framework */; };
+		7DEBB18515F0AF2C0082509D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DEBB18315F0AF2C0082509D /* InfoPlist.strings */; };
+		7DEBB18715F0AF2C0082509D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEBB18615F0AF2C0082509D /* main.m */; };
+		7DEBB18B15F0AF2C0082509D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEBB18A15F0AF2C0082509D /* AppDelegate.m */; };
+		7DEBB19815F0B1AC0082509D /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEBB19615F0B1AC0082509D /* MyTableViewController.m */; };
+		7DEBB19915F0B1AC0082509D /* MyTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEBB19715F0B1AC0082509D /* MyTableViewController.xib */; };
+		7DEBB1AD15F0BA2A0082509D /* MyDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEBB1AB15F0BA2A0082509D /* MyDetailController.m */; };
+		7DEBB1AE15F0BA2A0082509D /* MyDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEBB1AC15F0BA2A0082509D /* MyDetailController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DEBB17615F0AF2C0082509D /* 14-TabNavTable-chap10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "14-TabNavTable-chap10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEBB17A15F0AF2C0082509D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DEBB17C15F0AF2C0082509D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DEBB17E15F0AF2C0082509D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DEBB18215F0AF2C0082509D /* 14-TabNavTable-chap10-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "14-TabNavTable-chap10-Info.plist"; sourceTree = "<group>"; };
+		7DEBB18415F0AF2C0082509D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DEBB18615F0AF2C0082509D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DEBB18815F0AF2C0082509D /* 14-TabNavTable-chap10-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "14-TabNavTable-chap10-Prefix.pch"; sourceTree = "<group>"; };
+		7DEBB18915F0AF2C0082509D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DEBB18A15F0AF2C0082509D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DEBB19515F0B1AC0082509D /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		7DEBB19615F0B1AC0082509D /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		7DEBB19715F0B1AC0082509D /* MyTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewController.xib; sourceTree = "<group>"; };
+		7DEBB1AA15F0BA2A0082509D /* MyDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDetailController.h; sourceTree = "<group>"; };
+		7DEBB1AB15F0BA2A0082509D /* MyDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDetailController.m; sourceTree = "<group>"; };
+		7DEBB1AC15F0BA2A0082509D /* MyDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDetailController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DEBB17315F0AF2C0082509D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEBB17B15F0AF2C0082509D /* UIKit.framework in Frameworks */,
+				7DEBB17D15F0AF2C0082509D /* Foundation.framework in Frameworks */,
+				7DEBB17F15F0AF2C0082509D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DEBB16B15F0AF2C0082509D = {
+			isa = PBXGroup;
+			children = (
+				7DEBB18015F0AF2C0082509D /* 14-TabNavTable-chap10 */,
+				7DEBB17915F0AF2C0082509D /* Frameworks */,
+				7DEBB17715F0AF2C0082509D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DEBB17715F0AF2C0082509D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DEBB17615F0AF2C0082509D /* 14-TabNavTable-chap10.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DEBB17915F0AF2C0082509D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DEBB17A15F0AF2C0082509D /* UIKit.framework */,
+				7DEBB17C15F0AF2C0082509D /* Foundation.framework */,
+				7DEBB17E15F0AF2C0082509D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DEBB18015F0AF2C0082509D /* 14-TabNavTable-chap10 */ = {
+			isa = PBXGroup;
+			children = (
+				7DEBB18915F0AF2C0082509D /* AppDelegate.h */,
+				7DEBB18A15F0AF2C0082509D /* AppDelegate.m */,
+				7DEBB18115F0AF2C0082509D /* Supporting Files */,
+				7DEBB19515F0B1AC0082509D /* MyTableViewController.h */,
+				7DEBB19615F0B1AC0082509D /* MyTableViewController.m */,
+				7DEBB19715F0B1AC0082509D /* MyTableViewController.xib */,
+				7DEBB1AA15F0BA2A0082509D /* MyDetailController.h */,
+				7DEBB1AB15F0BA2A0082509D /* MyDetailController.m */,
+				7DEBB1AC15F0BA2A0082509D /* MyDetailController.xib */,
+			);
+			path = "14-TabNavTable-chap10";
+			sourceTree = "<group>";
+		};
+		7DEBB18115F0AF2C0082509D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DEBB18215F0AF2C0082509D /* 14-TabNavTable-chap10-Info.plist */,
+				7DEBB18315F0AF2C0082509D /* InfoPlist.strings */,
+				7DEBB18615F0AF2C0082509D /* main.m */,
+				7DEBB18815F0AF2C0082509D /* 14-TabNavTable-chap10-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DEBB17515F0AF2C0082509D /* 14-TabNavTable-chap10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DEBB18E15F0AF2C0082509D /* Build configuration list for PBXNativeTarget "14-TabNavTable-chap10" */;
+			buildPhases = (
+				7DEBB17215F0AF2C0082509D /* Sources */,
+				7DEBB17315F0AF2C0082509D /* Frameworks */,
+				7DEBB17415F0AF2C0082509D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14-TabNavTable-chap10";
+			productName = "14-TabNavTable-chap10";
+			productReference = 7DEBB17615F0AF2C0082509D /* 14-TabNavTable-chap10.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DEBB16D15F0AF2C0082509D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7DEBB17015F0AF2C0082509D /* Build configuration list for PBXProject "14-TabNavTable-chap10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DEBB16B15F0AF2C0082509D;
+			productRefGroup = 7DEBB17715F0AF2C0082509D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DEBB17515F0AF2C0082509D /* 14-TabNavTable-chap10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DEBB17415F0AF2C0082509D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEBB18515F0AF2C0082509D /* InfoPlist.strings in Resources */,
+				7DEBB19915F0B1AC0082509D /* MyTableViewController.xib in Resources */,
+				7DEBB1AE15F0BA2A0082509D /* MyDetailController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DEBB17215F0AF2C0082509D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEBB18715F0AF2C0082509D /* main.m in Sources */,
+				7DEBB18B15F0AF2C0082509D /* AppDelegate.m in Sources */,
+				7DEBB19815F0B1AC0082509D /* MyTableViewController.m in Sources */,
+				7DEBB1AD15F0BA2A0082509D /* MyDetailController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DEBB18315F0AF2C0082509D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DEBB18415F0AF2C0082509D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DEBB18C15F0AF2C0082509D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DEBB18D15F0AF2C0082509D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DEBB18F15F0AF2C0082509D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "14-TabNavTable-chap10/14-TabNavTable-chap10-Prefix.pch";
+				INFOPLIST_FILE = "14-TabNavTable-chap10/14-TabNavTable-chap10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DEBB19015F0AF2C0082509D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "14-TabNavTable-chap10/14-TabNavTable-chap10-Prefix.pch";
+				INFOPLIST_FILE = "14-TabNavTable-chap10/14-TabNavTable-chap10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DEBB17015F0AF2C0082509D /* Build configuration list for PBXProject "14-TabNavTable-chap10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEBB18C15F0AF2C0082509D /* Debug */,
+				7DEBB18D15F0AF2C0082509D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DEBB18E15F0AF2C0082509D /* Build configuration list for PBXNativeTarget "14-TabNavTable-chap10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEBB18F15F0AF2C0082509D /* Debug */,
+				7DEBB19015F0AF2C0082509D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DEBB16D15F0AF2C0082509D /* Project object */;
+}
