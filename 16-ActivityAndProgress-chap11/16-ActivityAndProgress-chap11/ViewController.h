@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "PleaseWaitViewController.h"
 @interface ViewController : UIViewController {
-    UIActivityIndicatorView *myActivityView;
+    PleaseWaitViewController *myActivityView;
+    
 }
-@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *myActivityView;
+@property (nonatomic, retain) IBOutlet PleaseWaitViewController *myActivityView;
 - (IBAction)doIt:(id)sender;
+- (void) moveBar: (id) object;
 @end
