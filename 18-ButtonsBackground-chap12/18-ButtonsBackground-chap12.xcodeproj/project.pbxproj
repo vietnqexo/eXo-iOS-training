@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D38BE4716070E6500508B77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D38BE4616070E6500508B77 /* UIKit.framework */; };
+		7D38BE4916070E6500508B77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D38BE4816070E6500508B77 /* Foundation.framework */; };
+		7D38BE4B16070E6500508B77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D38BE4A16070E6500508B77 /* CoreGraphics.framework */; };
+		7D38BE5116070E6500508B77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D38BE4F16070E6500508B77 /* InfoPlist.strings */; };
+		7D38BE5316070E6500508B77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38BE5216070E6500508B77 /* main.m */; };
+		7D38BE5716070E6500508B77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38BE5616070E6500508B77 /* AppDelegate.m */; };
+		7D38BE5A16070E6500508B77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38BE5916070E6500508B77 /* ViewController.m */; };
+		7D38BE5D16070E6500508B77 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D38BE5B16070E6500508B77 /* ViewController.xib */; };
+		7D38BE761607111100508B77 /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38BE701607111100508B77 /* calculator.png */; };
+		7D38BE771607111100508B77 /* fax.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38BE711607111100508B77 /* fax.png */; };
+		7D38BE781607111100508B77 /* printer.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38BE721607111100508B77 /* printer.png */; };
+		7D38BE791607111100508B77 /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38BE731607111100508B77 /* trophy.png */; };
+		7D38BE7A1607111100508B77 /* smiley-beast.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38BE741607111100508B77 /* smiley-beast.png */; };
+		7D38BE7B1607111100508B77 /* smiley-smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38BE751607111100508B77 /* smiley-smile.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D38BE4216070E6500508B77 /* 18-ButtonsBackground-chap12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "18-ButtonsBackground-chap12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D38BE4616070E6500508B77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D38BE4816070E6500508B77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D38BE4A16070E6500508B77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D38BE4E16070E6500508B77 /* 18-ButtonsBackground-chap12-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "18-ButtonsBackground-chap12-Info.plist"; sourceTree = "<group>"; };
+		7D38BE5016070E6500508B77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D38BE5216070E6500508B77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D38BE5416070E6500508B77 /* 18-ButtonsBackground-chap12-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "18-ButtonsBackground-chap12-Prefix.pch"; sourceTree = "<group>"; };
+		7D38BE5516070E6500508B77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D38BE5616070E6500508B77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D38BE5816070E6500508B77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D38BE5916070E6500508B77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D38BE5C16070E6500508B77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7D38BE701607111100508B77 /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calculator.png; path = "../../../../../Downloads/iconbeast-lite/iconbeast lite - png/calculator.png"; sourceTree = "<group>"; };
+		7D38BE711607111100508B77 /* fax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fax.png; path = "../../../../../Downloads/iconbeast-lite/iconbeast lite - png/fax.png"; sourceTree = "<group>"; };
+		7D38BE721607111100508B77 /* printer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = printer.png; path = "../../../../../Downloads/iconbeast-lite/iconbeast lite - png/printer.png"; sourceTree = "<group>"; };
+		7D38BE731607111100508B77 /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trophy.png; path = "../../../../../Downloads/iconbeast-lite/iconbeast lite - png/trophy.png"; sourceTree = "<group>"; };
+		7D38BE741607111100508B77 /* smiley-beast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-beast.png"; path = "../../../../../Downloads/iconbeast-lite/iconbeast lite - png/smiley-beast.png"; sourceTree = "<group>"; };
+		7D38BE751607111100508B77 /* smiley-smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smiley-smile.png"; path = "../../../../../Downloads/iconbeast-lite/iconbeast lite - png/smiley-smile.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D38BE3F16070E6500508B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D38BE4716070E6500508B77 /* UIKit.framework in Frameworks */,
+				7D38BE4916070E6500508B77 /* Foundation.framework in Frameworks */,
+				7D38BE4B16070E6500508B77 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D38BE3716070E6400508B77 = {
+			isa = PBXGroup;
+			children = (
+				7D38BE4C16070E6500508B77 /* 18-ButtonsBackground-chap12 */,
+				7D38BE4516070E6500508B77 /* Frameworks */,
+				7D38BE4316070E6500508B77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D38BE4316070E6500508B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D38BE4216070E6500508B77 /* 18-ButtonsBackground-chap12.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D38BE4516070E6500508B77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D38BE4616070E6500508B77 /* UIKit.framework */,
+				7D38BE4816070E6500508B77 /* Foundation.framework */,
+				7D38BE4A16070E6500508B77 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D38BE4C16070E6500508B77 /* 18-ButtonsBackground-chap12 */ = {
+			isa = PBXGroup;
+			children = (
+				7D38BE6F160710C700508B77 /* Images */,
+				7D38BE5516070E6500508B77 /* AppDelegate.h */,
+				7D38BE5616070E6500508B77 /* AppDelegate.m */,
+				7D38BE5816070E6500508B77 /* ViewController.h */,
+				7D38BE5916070E6500508B77 /* ViewController.m */,
+				7D38BE5B16070E6500508B77 /* ViewController.xib */,
+				7D38BE4D16070E6500508B77 /* Supporting Files */,
+			);
+			path = "18-ButtonsBackground-chap12";
+			sourceTree = "<group>";
+		};
+		7D38BE4D16070E6500508B77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D38BE4E16070E6500508B77 /* 18-ButtonsBackground-chap12-Info.plist */,
+				7D38BE4F16070E6500508B77 /* InfoPlist.strings */,
+				7D38BE5216070E6500508B77 /* main.m */,
+				7D38BE5416070E6500508B77 /* 18-ButtonsBackground-chap12-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D38BE6F160710C700508B77 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7D38BE701607111100508B77 /* calculator.png */,
+				7D38BE711607111100508B77 /* fax.png */,
+				7D38BE721607111100508B77 /* printer.png */,
+				7D38BE731607111100508B77 /* trophy.png */,
+				7D38BE741607111100508B77 /* smiley-beast.png */,
+				7D38BE751607111100508B77 /* smiley-smile.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D38BE4116070E6500508B77 /* 18-ButtonsBackground-chap12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D38BE6016070E6500508B77 /* Build configuration list for PBXNativeTarget "18-ButtonsBackground-chap12" */;
+			buildPhases = (
+				7D38BE3E16070E6500508B77 /* Sources */,
+				7D38BE3F16070E6500508B77 /* Frameworks */,
+				7D38BE4016070E6500508B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "18-ButtonsBackground-chap12";
+			productName = "18-ButtonsBackground-chap12";
+			productReference = 7D38BE4216070E6500508B77 /* 18-ButtonsBackground-chap12.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D38BE3916070E6400508B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7D38BE3C16070E6400508B77 /* Build configuration list for PBXProject "18-ButtonsBackground-chap12" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D38BE3716070E6400508B77;
+			productRefGroup = 7D38BE4316070E6500508B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D38BE4116070E6500508B77 /* 18-ButtonsBackground-chap12 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D38BE4016070E6500508B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D38BE5116070E6500508B77 /* InfoPlist.strings in Resources */,
+				7D38BE5D16070E6500508B77 /* ViewController.xib in Resources */,
+				7D38BE761607111100508B77 /* calculator.png in Resources */,
+				7D38BE771607111100508B77 /* fax.png in Resources */,
+				7D38BE781607111100508B77 /* printer.png in Resources */,
+				7D38BE791607111100508B77 /* trophy.png in Resources */,
+				7D38BE7A1607111100508B77 /* smiley-beast.png in Resources */,
+				7D38BE7B1607111100508B77 /* smiley-smile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D38BE3E16070E6500508B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D38BE5316070E6500508B77 /* main.m in Sources */,
+				7D38BE5716070E6500508B77 /* AppDelegate.m in Sources */,
+				7D38BE5A16070E6500508B77 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D38BE4F16070E6500508B77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D38BE5016070E6500508B77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D38BE5B16070E6500508B77 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D38BE5C16070E6500508B77 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D38BE5E16070E6500508B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D38BE5F16070E6500508B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D38BE6116070E6500508B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "18-ButtonsBackground-chap12/18-ButtonsBackground-chap12-Prefix.pch";
+				INFOPLIST_FILE = "18-ButtonsBackground-chap12/18-ButtonsBackground-chap12-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D38BE6216070E6500508B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "18-ButtonsBackground-chap12/18-ButtonsBackground-chap12-Prefix.pch";
+				INFOPLIST_FILE = "18-ButtonsBackground-chap12/18-ButtonsBackground-chap12-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D38BE3C16070E6400508B77 /* Build configuration list for PBXProject "18-ButtonsBackground-chap12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D38BE5E16070E6500508B77 /* Debug */,
+				7D38BE5F16070E6500508B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D38BE6016070E6500508B77 /* Build configuration list for PBXNativeTarget "18-ButtonsBackground-chap12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D38BE6116070E6500508B77 /* Debug */,
+				7D38BE6216070E6500508B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D38BE3916070E6400508B77 /* Project object */;
+}
