@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D09AA4316085500009FCA2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D09AA4216085500009FCA2E /* UIKit.framework */; };
+		7D09AA4516085500009FCA2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D09AA4416085500009FCA2E /* Foundation.framework */; };
+		7D09AA4716085500009FCA2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D09AA4616085500009FCA2E /* CoreGraphics.framework */; };
+		7D09AA4D16085500009FCA2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D09AA4B16085500009FCA2E /* InfoPlist.strings */; };
+		7D09AA4F16085500009FCA2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D09AA4E16085500009FCA2E /* main.m */; };
+		7D09AA5316085500009FCA2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D09AA5216085500009FCA2E /* AppDelegate.m */; };
+		7D09AA5616085500009FCA2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D09AA5516085500009FCA2E /* ViewController.m */; };
+		7D09AA5916085500009FCA2E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D09AA5716085500009FCA2E /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D09AA3E16085500009FCA2E /* 21-UITextField-chap12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "21-UITextField-chap12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D09AA4216085500009FCA2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D09AA4416085500009FCA2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D09AA4616085500009FCA2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D09AA4A16085500009FCA2E /* 21-UITextField-chap12-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "21-UITextField-chap12-Info.plist"; sourceTree = "<group>"; };
+		7D09AA4C16085500009FCA2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D09AA4E16085500009FCA2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D09AA5016085500009FCA2E /* 21-UITextField-chap12-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "21-UITextField-chap12-Prefix.pch"; sourceTree = "<group>"; };
+		7D09AA5116085500009FCA2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D09AA5216085500009FCA2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D09AA5416085500009FCA2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D09AA5516085500009FCA2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D09AA5816085500009FCA2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D09AA3B16085500009FCA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D09AA4316085500009FCA2E /* UIKit.framework in Frameworks */,
+				7D09AA4516085500009FCA2E /* Foundation.framework in Frameworks */,
+				7D09AA4716085500009FCA2E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D09AA3316085500009FCA2E = {
+			isa = PBXGroup;
+			children = (
+				7D09AA4816085500009FCA2E /* 21-UITextField-chap12 */,
+				7D09AA4116085500009FCA2E /* Frameworks */,
+				7D09AA3F16085500009FCA2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D09AA3F16085500009FCA2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D09AA3E16085500009FCA2E /* 21-UITextField-chap12.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D09AA4116085500009FCA2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D09AA4216085500009FCA2E /* UIKit.framework */,
+				7D09AA4416085500009FCA2E /* Foundation.framework */,
+				7D09AA4616085500009FCA2E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D09AA4816085500009FCA2E /* 21-UITextField-chap12 */ = {
+			isa = PBXGroup;
+			children = (
+				7D09AA5116085500009FCA2E /* AppDelegate.h */,
+				7D09AA5216085500009FCA2E /* AppDelegate.m */,
+				7D09AA5416085500009FCA2E /* ViewController.h */,
+				7D09AA5516085500009FCA2E /* ViewController.m */,
+				7D09AA5716085500009FCA2E /* ViewController.xib */,
+				7D09AA4916085500009FCA2E /* Supporting Files */,
+			);
+			path = "21-UITextField-chap12";
+			sourceTree = "<group>";
+		};
+		7D09AA4916085500009FCA2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D09AA4A16085500009FCA2E /* 21-UITextField-chap12-Info.plist */,
+				7D09AA4B16085500009FCA2E /* InfoPlist.strings */,
+				7D09AA4E16085500009FCA2E /* main.m */,
+				7D09AA5016085500009FCA2E /* 21-UITextField-chap12-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D09AA3D16085500009FCA2E /* 21-UITextField-chap12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D09AA5C16085500009FCA2E /* Build configuration list for PBXNativeTarget "21-UITextField-chap12" */;
+			buildPhases = (
+				7D09AA3A16085500009FCA2E /* Sources */,
+				7D09AA3B16085500009FCA2E /* Frameworks */,
+				7D09AA3C16085500009FCA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "21-UITextField-chap12";
+			productName = "21-UITextField-chap12";
+			productReference = 7D09AA3E16085500009FCA2E /* 21-UITextField-chap12.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D09AA3516085500009FCA2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7D09AA3816085500009FCA2E /* Build configuration list for PBXProject "21-UITextField-chap12" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D09AA3316085500009FCA2E;
+			productRefGroup = 7D09AA3F16085500009FCA2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D09AA3D16085500009FCA2E /* 21-UITextField-chap12 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D09AA3C16085500009FCA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D09AA4D16085500009FCA2E /* InfoPlist.strings in Resources */,
+				7D09AA5916085500009FCA2E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D09AA3A16085500009FCA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D09AA4F16085500009FCA2E /* main.m in Sources */,
+				7D09AA5316085500009FCA2E /* AppDelegate.m in Sources */,
+				7D09AA5616085500009FCA2E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D09AA4B16085500009FCA2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D09AA4C16085500009FCA2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D09AA5716085500009FCA2E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D09AA5816085500009FCA2E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D09AA5A16085500009FCA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D09AA5B16085500009FCA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D09AA5D16085500009FCA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "21-UITextField-chap12/21-UITextField-chap12-Prefix.pch";
+				INFOPLIST_FILE = "21-UITextField-chap12/21-UITextField-chap12-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D09AA5E16085500009FCA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "21-UITextField-chap12/21-UITextField-chap12-Prefix.pch";
+				INFOPLIST_FILE = "21-UITextField-chap12/21-UITextField-chap12-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D09AA3816085500009FCA2E /* Build configuration list for PBXProject "21-UITextField-chap12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D09AA5A16085500009FCA2E /* Debug */,
+				7D09AA5B16085500009FCA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D09AA5C16085500009FCA2E /* Build configuration list for PBXNativeTarget "21-UITextField-chap12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D09AA5D16085500009FCA2E /* Debug */,
+				7D09AA5E16085500009FCA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D09AA3516085500009FCA2E /* Project object */;
+}
