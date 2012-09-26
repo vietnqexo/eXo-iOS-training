@@ -10,12 +10,12 @@
 #import "ScaryBugData.h"
 @implementation ScaryBugDoc
 @synthesize data = _data;
-@synthesize thumImage = _thumImage;
+@synthesize thumbImage = _thumbImage;
 @synthesize fullImage = _fullImage;
--(id) initWithTitle:(NSString *)title rating:(float)rating thumbImage:(UIImage *)thumImage fullImage:(UIImage *)fullImage {
+-(id) initWithTitle:(NSString *)title rating:(float)rating thumbImage:(UIImage *)thumbImage fullImage:(UIImage *)fullImage {
     if(self = [self init]) {
         self.data = [[ScaryBugData alloc] initWithTitle:title rating:rating];
-        self.thumImage = thumImage;
+        self.thumbImage = thumbImage;
         self.fullImage = fullImage;
     }
     return self;
