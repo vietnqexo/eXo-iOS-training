@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D5BDDA51623DE2300528A62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5BDDA41623DE2300528A62 /* UIKit.framework */; };
+		7D5BDDA71623DE2300528A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5BDDA61623DE2300528A62 /* Foundation.framework */; };
+		7D5BDDA91623DE2300528A62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5BDDA81623DE2300528A62 /* CoreGraphics.framework */; };
+		7D5BDDAB1623DE2300528A62 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5BDDAA1623DE2300528A62 /* CoreData.framework */; };
+		7D5BDDB11623DE2300528A62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D5BDDAF1623DE2300528A62 /* InfoPlist.strings */; };
+		7D5BDDB31623DE2300528A62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5BDDB21623DE2300528A62 /* main.m */; };
+		7D5BDDB71623DE2300528A62 /* FBCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5BDDB61623DE2300528A62 /* FBCDAppDelegate.m */; };
+		7D5BDDBA1623DE2300528A62 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5BDDB81623DE2300528A62 /* MainStoryboard.storyboard */; };
+		7D5BDDBD1623DE2300528A62 /* _2_FailedBanksCD_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D5BDDBB1623DE2300528A62 /* _2_FailedBanksCD_CoreData.xcdatamodeld */; };
+		7D5BDDCC1623DEED00528A62 /* FBCDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5BDDCA1623DEED00528A62 /* FBCDMasterViewController.m */; };
+		7D5BDDCD1623DEED00528A62 /* FBCDMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D5BDDCB1623DEED00528A62 /* FBCDMasterViewController.xib */; };
+		7DDF581B1624168700C222CA /* FailedBanksCD.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7DDF581A1624168700C222CA /* FailedBanksCD.sqlite */; };
+		7DDF582716241B5A00C222CA /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDF582616241B5A00C222CA /* FailedBankDetails.m */; };
+		7DDF582A16241B7300C222CA /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDF582916241B7300C222CA /* FailedBankInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D5BDDA01623DE2300528A62 /* 32-FailedBanksCD-CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "32-FailedBanksCD-CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5BDDA41623DE2300528A62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D5BDDA61623DE2300528A62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D5BDDA81623DE2300528A62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D5BDDAA1623DE2300528A62 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7D5BDDAE1623DE2300528A62 /* 32-FailedBanksCD-CoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "32-FailedBanksCD-CoreData-Info.plist"; sourceTree = "<group>"; };
+		7D5BDDB01623DE2300528A62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D5BDDB21623DE2300528A62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D5BDDB41623DE2300528A62 /* 32-FailedBanksCD-CoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "32-FailedBanksCD-CoreData-Prefix.pch"; sourceTree = "<group>"; };
+		7D5BDDB51623DE2300528A62 /* FBCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBCDAppDelegate.h; sourceTree = "<group>"; };
+		7D5BDDB61623DE2300528A62 /* FBCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBCDAppDelegate.m; sourceTree = "<group>"; };
+		7D5BDDB91623DE2300528A62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7D5BDDBC1623DE2300528A62 /* _2_FailedBanksCD_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _2_FailedBanksCD_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		7D5BDDC91623DEED00528A62 /* FBCDMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCDMasterViewController.h; sourceTree = "<group>"; };
+		7D5BDDCA1623DEED00528A62 /* FBCDMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCDMasterViewController.m; sourceTree = "<group>"; };
+		7D5BDDCB1623DEED00528A62 /* FBCDMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBCDMasterViewController.xib; sourceTree = "<group>"; };
+		7DDF581A1624168700C222CA /* FailedBanksCD.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = FailedBanksCD.sqlite; sourceTree = "<group>"; };
+		7DDF582516241B5A00C222CA /* FailedBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
+		7DDF582616241B5A00C222CA /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
+		7DDF582816241B7200C222CA /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
+		7DDF582916241B7300C222CA /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D5BDD9D1623DE2300528A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5BDDA51623DE2300528A62 /* UIKit.framework in Frameworks */,
+				7D5BDDA71623DE2300528A62 /* Foundation.framework in Frameworks */,
+				7D5BDDA91623DE2300528A62 /* CoreGraphics.framework in Frameworks */,
+				7D5BDDAB1623DE2300528A62 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D5BDD951623DE2300528A62 = {
+			isa = PBXGroup;
+			children = (
+				7D5BDDAC1623DE2300528A62 /* 32-FailedBanksCD-CoreData */,
+				7D5BDDA31623DE2300528A62 /* Frameworks */,
+				7D5BDDA11623DE2300528A62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D5BDDA11623DE2300528A62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D5BDDA01623DE2300528A62 /* 32-FailedBanksCD-CoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D5BDDA31623DE2300528A62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D5BDDA41623DE2300528A62 /* UIKit.framework */,
+				7D5BDDA61623DE2300528A62 /* Foundation.framework */,
+				7D5BDDA81623DE2300528A62 /* CoreGraphics.framework */,
+				7D5BDDAA1623DE2300528A62 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D5BDDAC1623DE2300528A62 /* 32-FailedBanksCD-CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7DDF581A1624168700C222CA /* FailedBanksCD.sqlite */,
+				7D5BDDB51623DE2300528A62 /* FBCDAppDelegate.h */,
+				7D5BDDB61623DE2300528A62 /* FBCDAppDelegate.m */,
+				7D5BDDB81623DE2300528A62 /* MainStoryboard.storyboard */,
+				7D5BDDBB1623DE2300528A62 /* _2_FailedBanksCD_CoreData.xcdatamodeld */,
+				7DDF582816241B7200C222CA /* FailedBankInfo.h */,
+				7DDF582916241B7300C222CA /* FailedBankInfo.m */,
+				7DDF582516241B5A00C222CA /* FailedBankDetails.h */,
+				7DDF582616241B5A00C222CA /* FailedBankDetails.m */,
+				7D5BDDAD1623DE2300528A62 /* Supporting Files */,
+				7D5BDDC91623DEED00528A62 /* FBCDMasterViewController.h */,
+				7D5BDDCA1623DEED00528A62 /* FBCDMasterViewController.m */,
+				7D5BDDCB1623DEED00528A62 /* FBCDMasterViewController.xib */,
+			);
+			path = "32-FailedBanksCD-CoreData";
+			sourceTree = "<group>";
+		};
+		7D5BDDAD1623DE2300528A62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D5BDDAE1623DE2300528A62 /* 32-FailedBanksCD-CoreData-Info.plist */,
+				7D5BDDAF1623DE2300528A62 /* InfoPlist.strings */,
+				7D5BDDB21623DE2300528A62 /* main.m */,
+				7D5BDDB41623DE2300528A62 /* 32-FailedBanksCD-CoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D5BDD9F1623DE2300528A62 /* 32-FailedBanksCD-CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D5BDDC61623DE2300528A62 /* Build configuration list for PBXNativeTarget "32-FailedBanksCD-CoreData" */;
+			buildPhases = (
+				7D5BDD9C1623DE2300528A62 /* Sources */,
+				7D5BDD9D1623DE2300528A62 /* Frameworks */,
+				7D5BDD9E1623DE2300528A62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "32-FailedBanksCD-CoreData";
+			productName = "32-FailedBanksCD-CoreData";
+			productReference = 7D5BDDA01623DE2300528A62 /* 32-FailedBanksCD-CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D5BDD971623DE2300528A62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7D5BDD9A1623DE2300528A62 /* Build configuration list for PBXProject "32-FailedBanksCD-CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D5BDD951623DE2300528A62;
+			productRefGroup = 7D5BDDA11623DE2300528A62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D5BDD9F1623DE2300528A62 /* 32-FailedBanksCD-CoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D5BDD9E1623DE2300528A62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5BDDB11623DE2300528A62 /* InfoPlist.strings in Resources */,
+				7D5BDDBA1623DE2300528A62 /* MainStoryboard.storyboard in Resources */,
+				7D5BDDCD1623DEED00528A62 /* FBCDMasterViewController.xib in Resources */,
+				7DDF581B1624168700C222CA /* FailedBanksCD.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D5BDD9C1623DE2300528A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5BDDB31623DE2300528A62 /* main.m in Sources */,
+				7D5BDDB71623DE2300528A62 /* FBCDAppDelegate.m in Sources */,
+				7D5BDDBD1623DE2300528A62 /* _2_FailedBanksCD_CoreData.xcdatamodeld in Sources */,
+				7D5BDDCC1623DEED00528A62 /* FBCDMasterViewController.m in Sources */,
+				7DDF582716241B5A00C222CA /* FailedBankDetails.m in Sources */,
+				7DDF582A16241B7300C222CA /* FailedBankInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D5BDDAF1623DE2300528A62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D5BDDB01623DE2300528A62 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D5BDDB81623DE2300528A62 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D5BDDB91623DE2300528A62 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D5BDDC41623DE2300528A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D5BDDC51623DE2300528A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D5BDDC71623DE2300528A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "32-FailedBanksCD-CoreData/32-FailedBanksCD-CoreData-Prefix.pch";
+				INFOPLIST_FILE = "32-FailedBanksCD-CoreData/32-FailedBanksCD-CoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D5BDDC81623DE2300528A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "32-FailedBanksCD-CoreData/32-FailedBanksCD-CoreData-Prefix.pch";
+				INFOPLIST_FILE = "32-FailedBanksCD-CoreData/32-FailedBanksCD-CoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D5BDD9A1623DE2300528A62 /* Build configuration list for PBXProject "32-FailedBanksCD-CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5BDDC41623DE2300528A62 /* Debug */,
+				7D5BDDC51623DE2300528A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D5BDDC61623DE2300528A62 /* Build configuration list for PBXNativeTarget "32-FailedBanksCD-CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5BDDC71623DE2300528A62 /* Debug */,
+				7D5BDDC81623DE2300528A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7D5BDDBB1623DE2300528A62 /* _2_FailedBanksCD_CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7D5BDDBC1623DE2300528A62 /* _2_FailedBanksCD_CoreData.xcdatamodel */,
+			);
+			currentVersion = 7D5BDDBC1623DE2300528A62 /* _2_FailedBanksCD_CoreData.xcdatamodel */;
+			path = _2_FailedBanksCD_CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7D5BDD971623DE2300528A62 /* Project object */;
+}
