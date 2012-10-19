@@ -13,5 +13,11 @@
 @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
 @property (nonatomic, retain) NSDictionary *photoInfo;
 @property (nonatomic,retain) UIImageView *imageView;
+@property (nonatomic, retain) UIBarButtonItem *visitButton;
+@property (assign) BOOL photoVisited;
+
 - (void) centerScrollViewContents;
+- (void) displayPhoto: (NSDictionary *)photoInfo;
+- (void) checkVisitOrUnvisit;
+- (IBAction)visitOrUnvisit:(id)sender;
 @end

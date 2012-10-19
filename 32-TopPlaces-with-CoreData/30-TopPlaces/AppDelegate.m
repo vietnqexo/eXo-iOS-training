@@ -13,7 +13,7 @@
 #import "TopPlaceViewController.h"
 
 #import "MostRecentViewController.h"
-
+#import "VacationsViewController.h"
 #import "Utils.h"
 
 @implementation AppDelegate
@@ -42,12 +42,15 @@
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
     
     TopPlaceViewController *topPlaceViewController = [[[TopPlaceViewController alloc] initWithNibName:@"TopPlaceViewController" bundle:nil] autorelease];
-    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:topPlaceViewController];
+    UINavigationController *nav1 = [[[UINavigationController alloc] initWithRootViewController:topPlaceViewController] autorelease];
     
     MostRecentViewController *mostRecentViewController = [[[MostRecentViewController alloc] initWithNibName:@"MostRecentViewController" bundle:nil] autorelease];
-    UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:mostRecentViewController];
+    UINavigationController *nav2 = [[[UINavigationController alloc] initWithRootViewController:mostRecentViewController] autorelease];
     
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:nav1, nav2, nil];
+    VacationsViewController *vacationsViewControlelr = [[[VacationsViewController alloc] initWithNibName:@"VacationsViewController" bundle:nil] autorelease];
+    UINavigationController *nav3 = [[[UINavigationController alloc] initWithRootViewController:vacationsViewControlelr] autorelease];
+    
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:nav1, nav2, nav3, nil];
 
     self.window.rootViewController = self.tabBarController;
 

@@ -9,20 +9,61 @@
 #import "PhotoDetailController.h"
 #import "FlickrFetcher.h"
 #import "Utils.h"
+#import "VacationHelper.h"
+#import "Photo+Flickr.h"
+#import "VacationsViewController.h"
+
 
 @implementation PhotoDetailController 
 @synthesize photoInfo = _photoInfo;
 @synthesize scrollView = _scrollView;
 @synthesize imageView = _imageView;
+@synthesize visitButton = _visitButton;
+@synthesize photoVisited = _photoVisited;
 
 - (void) dealloc {
-    [self.photoInfo release];
-    [self.scrollView release];
-    [self.imageView release];
+    [_photoInfo release];
+    [_scrollView release];
+    [_imageView release];
+    [_visitButton release];
     [super dealloc];
     
 }
+- (void)checkVisitOrUnvisit {
+    [VacationHelper openVacation:MY_VACATION usingBlock:^(UIManagedDocument *document) {
+        if ([Photo photoIsExisted:self.photoInfo inManagedObjectContext:document.managedObjectContext]) {
+            self.photoVisited = YES;
+            self.visitButton.title = @"Unvisit";
+            
+        } else {
+            self.photoVisited = NO;
+            self.visitButton.title = @"Visit";
+        }
+    }];
+}
 
+- (void)visitOrUnvisit:(id)sender {
+    if (!self.photoVisited) {
+
+        [VacationHelper openVacation:MY_VACATION usingBlock:^(UIManagedDocument *document) {
+            if ([Photo photoWithFlickrInfo:self.photoInfo inManagedObjectContext:document.managedObjectContext]) {
+                self.photoVisited = YES;
+                self.visitButton.title = @"Unvisit";
+            };
+            
+        }];
+    } else {
+        [VacationHelper openVacation:MY_VACATION usingBlock:^(UIManagedDocument *document) {
+            Photo *photo = [Photo photoWithFlickrInfo:self.photoInfo inManagedObjectContext:document.managedObjectContext];
+            if (photo) {
+                 
+                [document.managedObjectContext deleteObject:photo];
+                self.photoVisited = NO;
+                self.visitButton.title = @"Visit";
+            }
+        }];
+    }
+}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -47,7 +88,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-        [Utils pushPhotoToList:self.photoInfo];
+    self.visitButton = [[UIBarButtonItem alloc] initWithTitle:@"Visit" style:UIBarButtonItemStylePlain target:self action:@selector(visitOrUnvisit:)];
+    [self checkVisitOrUnvisit];
+    self.navigationItem.rightBarButtonItem = self.visitButton;
+    [Utils pushPhotoToList:self.photoInfo];
     
 }
 
@@ -58,10 +102,12 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+    [self displayPhoto:self.photoInfo];
     
-    
-    
-    self.title = [Utils titleForPhoto:self.photoInfo];
+}
+
+- (void)displayPhoto:(NSDictionary *)photoInfo {
+    self.title = [Utils titleForPhoto:photoInfo];
     // fetch the image
     NSData *photoData = [NSData dataWithContentsOfURL:[FlickrFetcher urlForPhoto:self.photoInfo format:FlickrPhotoFormatLarge]];
     
@@ -84,7 +130,6 @@
     self.scrollView.zoomScale = minScale;
     
     [self centerScrollViewContents];
-    
 }
 
 - (void)centerScrollViewContents {
